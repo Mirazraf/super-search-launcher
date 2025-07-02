@@ -4,7 +4,9 @@
 
 ---
 
-![Super Search Launcher screenshot](popup.png) <!-- (Add your screenshot link here!) -->
+<p align="center">
+  <img src="popup.png" width="600" alt="Super Search Launcher Screenshot">
+</p>
 
 ## ✨ Features
 
