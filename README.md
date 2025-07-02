@@ -5,7 +5,7 @@
 ---
 
 <p align="center">
-  <img src="popup.png" width="600" alt="Super Search Launcher Screenshot">
+  <img src="popup.png" width="600" height ="200" alt="Super Search Launcher Screenshot">
 </p>
 
 ## ✨ Features
