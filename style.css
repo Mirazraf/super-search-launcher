@@ -1,0 +1,147 @@
+/* style.css */
+
+/* General styles for the popup - these will NOT affect the host page */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    min-width: 300px; /* Minimum width for the popup */
+    background-color: #f0f2f5;
+    transition: background-color 0.3s ease;
+}
+
+.ssl-popup-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Dark mode styles for the popup */
+.ssl-popup-container.ssl-dark-mode {
+    background-color: #2c2c2c;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    color: #e0e0e0;
+}
+
+.ssl-popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ssl-popup-title {
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+}
+
+.ssl-popup-container.ssl-dark-mode .ssl-popup-title {
+    color: #e0e0e0;
+}
+
+.ssl-theme-toggle-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ssl-theme-toggle-btn:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.ssl-popup-container.ssl-dark-mode .ssl-theme-toggle-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.ssl-theme-toggle-btn img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.ssl-popup-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ssl-engine-select,
+.ssl-search-input {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 0.95em;
+    outline: none;
+    transition: border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.ssl-popup-container.ssl-dark-mode .ssl-engine-select,
+.ssl-popup-container.ssl-dark-mode .ssl-search-input {
+    background-color: #3a3a3a;
+    border-color: #555;
+    color: #e0e0e0;
+}
+
+.ssl-search-input::placeholder {
+    color: #999;
+}
+
+.ssl-popup-container.ssl-dark-mode .ssl-search-input::placeholder {
+    color: #bbb;
+}
+
+.ssl-engine-select:focus,
+.ssl-search-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+.ssl-search-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+    font-family: 'Inter', sans-serif;
+}
+
+.ssl-search-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 12px rgba(0, 123, 255, 0.3);
+}
+
+.ssl-search-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.2);
+}
+
+.ssl-popup-container.ssl-dark-mode .ssl-search-button {
+    background-color: #4a90e2;
+    box-shadow: 0 4px 8px rgba(74, 144, 226, 0.2);
+}
+
+.ssl-popup-container.ssl-dark-mode .ssl-search-button:hover {
+    background-color: #357bd8;
+    box-shadow: 0 6px 12px rgba(74, 144, 226, 0.3);
+}
