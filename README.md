@@ -102,8 +102,3 @@ MIT License
 ---
 
 **Enjoy faster, smarter searching – right where you need it! 🚀**
-
-<p align="center">
-  <img src="https://img.shields.io/chrome-web-store/v/your-extension-id?style=flat-square" alt="Chrome Web Store">
-  <img src="https://img.shields.io/github/license/your-username/Super-Search-Launcher?style=flat-square" alt="MIT License">
-</p>
