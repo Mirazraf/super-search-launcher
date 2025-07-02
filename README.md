@@ -4,6 +4,8 @@
 
 ---
 
+![Super Search Launcher screenshot](popup.png) <!-- (Add your screenshot link here!) -->
+
 ## ✨ Features
 
 - **🔍 Floating Search Bar:**  
@@ -32,7 +34,7 @@
 
 <!-- Replace with your own screenshots/gifs -->
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/your-screenshot.png" width="600" alt="Super Search Launcher Screenshot">
+  <img src="sample.png" width="600" alt="Super Search Launcher Screenshot">
 </p>
 
 ---
