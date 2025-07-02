@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Search Launcher</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Inter font from Google Fonts (or similar local fallback) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="ssl-popup-container">
+        <div class="ssl-popup-header">
+            <h3 class="ssl-popup-title">Super Search</h3>
+            <button id="theme-toggle" class="ssl-theme-toggle-btn">
+                <!-- Moon icon for light mode, Sun icon for dark mode -->
+                <img id="theme-icon" src="https://img.icons8.com/ios-filled/24/000000/moon-symbol.png" alt="Theme Toggle">
+            </button>
+        </div>
+        <div class="ssl-popup-controls">
+            <select id="popup-engine-select" class="ssl-engine-select">
+                <option value="google">Google</option>
+                <option value="youtube">YouTube</option>
+                <option value="stackoverflow">Stack Overflow</option>
+                <option value="wikipedia">Wikipedia</option>
+            </select>
+            <input type="text" id="popup-search-input" class="ssl-search-input" placeholder="Type your search query...">
+            <button id="popup-search-button" class="ssl-search-button">Search</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
